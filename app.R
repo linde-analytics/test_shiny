@@ -15,7 +15,7 @@ portfolio_choices <- c(
 )
 
 ui <- dashboardPage(
-  dashboardHeader(title = "Portfolio Dashboard V2"),
+  dashboardHeader(title = "Portfolio App"),
   dashboardSidebar(
     selectInput(
       "portfolio",
